@@ -1,0 +1,56 @@
+.country-list-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+.country-list-container .card-container {
+  width: 80%;
+}
+
+.country-list-container .card-container .country-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.country-list-container .card-container .country-list .country-list-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 10px;
+  font-family: sans-serif;
+}
+.country-list-container .card-container .country-list .country-list-row .list-items {
+  /* align-self: center; */
+  width: 150px;
+  align-content: center;
+  align-items: center;
+  text-align: right;
+}
+.country-list-container .card-container .country-list .country-list-row.header {
+  font-weight: bold;
+}
+.country-list-container .card-container .country-list .country-list-row.header .population {
+  cursor: pointer;
+}
+.country-list-container .card-container .search-container .search-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  margin: 20px 0px;
+}
+.country-list-container .card-container .select-container {
+  padding: 10px 0px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.country-list-container .card-container .select-container select {
+  padding: 10px;
+  font-family: sans-serif;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
